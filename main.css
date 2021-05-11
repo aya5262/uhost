@@ -15,74 +15,99 @@ body{
     
 
 }
-#section-title{
-    color:#2ddf5c
+.section_title{
+    color:#2ddf5c;
+    text-align: center;
+
     }
+
 #product-overview h1{
     color:white;
     font-family: 'Anton',sans-serif;
 }
-
-.main-header{
-background-color: #25995f;
-width: 100%;
-padding: 8px 18px;
-    }
-.main-header >div
-{
+.pan__list{
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+.plan{
+    background: #d5ffdc;
+    text-align:  center;
+    padding: 16px;
+    margin: 8px;
     display: inline-block;
+    width:30%;
     vertical-align: middle;
 }
-.main-nav
-{
-    display: inline-block;
-    text-align: right;
-    width:calc(100%-74px);
-    vertical-align: middle;
+.plan--highlighted{
+    background-color: #19b84c;
+    color:white;
+    box-shadow:2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+.plan--highlighted .plan__price{
+    color:#0e4f1f
+}
+.plan--highlighted .plan__title{
+    color:#0e4f1f
 
 }
-.main_nav__items{
+.plan__nnotation{
+background-color: white;
+color:#16b84c;
+box-shadow:2px 2px 2px 2px rgba(0,0,0,1);
+padding:8px ;
+border-radius: 8px;
+}
+.plan__title{
+  color:blue;
 
-    padding: 0 100px;
+}
+.plan__price{
+color:gray;
+}
+
+.plan__features{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.plan__feature{
+    margin: 8px 0;
+}
+
+#key-features{
+    background-color:#ff1b68;
+    text-align: center;
+    margin:10px;
+    padding:80px;
+}
+#key-features .section_title{
+    color:white;
+    margin:32px;
+}
+.key-feature__list {
    list-style: none;
-   width: 100%;
+   margin:0;
+   padding:0;
+   text-align: center;
+}
+.key__feature{
+   display:inline-block;
+   width:30%;
+   vertical-align: top;
+}
 
- }
-    .main_nav__item{
-        display: inline-block;
-        text-decoration: none;
-        margin: 0 16px;
-        text-align: right;
-
-        /* margin :top  button left  right*/
-    }
-
-    .main-header__brand a{
-        color:black;
-        text-decoration: none;
-        font-size:30px;
-        font-weight: bold;}
-
-.main_nav__item a{
-    text-decoration: none;
-    color:black;
-    padding: 5px 0;
+.key-feature__image{
+    background: pink;
+    width:128px;
+    height:128px;
+    border:2px solid #424242;
+    border-radius: 50%;
+    margin:auto;
+}
+.key-feature__description{
+    text-align: center;
+    font-weight: bold;
+    color:white;
     font-size: 20px;
 }
-.main_nav__item a:hover,.main_nav__item a:active{
-color: white;
-border-bottom: 2px solid white;
-}
-.main_nav__item-cta a{
-    color:white;
-    background:red ;
-    border-radius: 8px;
-    padding:8px 16px;
-}
-
-.main_nav__item-cta a:hover,
-.main_nav__item-cta a:active{
-    color:red;
-    background:white ;
-border:none;}
-

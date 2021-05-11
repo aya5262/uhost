@@ -2,10 +2,10 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="main.css">
     <title>
 
     </title>
@@ -16,7 +16,8 @@
         <div class="main-header__brand"><a href="index.html">
                 uHost
             </a>
-        </div><nav class="main-nav">
+        </div>
+        <nav class="main-nav">
             <ul class="main_nav__items">
                 <li class="main_nav__item">
                     <a href="packages/index.html">packages</a>
@@ -34,16 +35,98 @@
     </header>
     <main>
         <section id="product-overview">
-            <h1>
-                Get the freedom you deserve
-
-            </h1>
+            <h1>Get the freedom you deserve </h1>
         </section>
         <section id="plans">
-            <h1 class="section-title">
+            <h1 class="section_title">
                 Choose your plan
             </h1>
+            <div class= "plan__list">
+                <article class="plan">
+                    <h1 class="plan__title"> FREE</h1>
+                    <h2 class="plan__price">$0/month</h2>
+                    <h3>For hobby projects or small teams</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">1 workspace</li>
+                        <li class="plan__feature">Unlimited Traffic</li>
+                        <li class="plan__feature">100GB Storage</li>
+                        <li class="plan__feature">Basic Support</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article class="plan plan--highlighted">
+                    <h1 class="plan__nnotation">RECOMMENDED</h1>
+                    <h1 class="plan__tilte">PLUS</h1>
+                    <h2 class="plan__price">$29/MONNTH</h2>
+                    <h3>
+                        For ambitious projects.
+                    </h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">5 WorkSppace
+                        </li>
+                        <li class="plan__feature">Umlimited Traffic</li>
+                        <li class="plan__feature">100GB Storage</li>
+                        <li class="plan__feature">Plus Support</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article class="plan">
+                    <h1>PREMIUM</h1>
+                    <h2 class="plan__price">$99/MONTH</h2>
+                    <h3>Your enterprise solution.</h3>
+                    <ul class="plan__features">
+                        <li class="plan__feature">10 WorkSppace</li>
+                        <li class="plan__feature">Umlimited Traffic</li>
+                        <li class="plan__feature">100GB Storage</li>
+                        <li class="plan__feature">Plus Support</li>
+                    </ul>
+                    <div>
+                        <button class="button">CHOOSE PLAN</button>
+                    </div>
+                </article>
+
+            </div>
         </section>
+        <section id="key-features">
+            <h1 class="section_title">Many Goods Reasons to Stick Around</h1>
+            <ul class="key-feature__list  ">
+                <li class="key__feature">
+                    <div class="key-feature__image">
+                    </div>
+                    <p class="key-feature__description">3,555 Tranding Customers</p>
+                </li>
+                <li class="key__feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description">3,333 Uptime Guarantee</p>
+                </li>
+                <li class="key__feature">
+                    <div class="key-feature__image">
+
+                    </div>
+                    <p class="key-feature__description">Lijggg fast CDN</p>
+                </li>
+
+            </ul>
+        </section>
+        <footer class="main-footer">
+
+            <nav>
+                <ul class="main-footer__links">
+                    <li class="main-footer_link">
+                        <a href="#">Suppport</a>
+                    </li>
+                    <li class="main-footer_link">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
     </main>
 </body>
 

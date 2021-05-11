@@ -1,0 +1,85 @@
+main{
+    padding-top: 32px;
+}
+.backgrod{
+    background-image: url("../images/plan3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+
+}
+.package{
+    background: rgb(172, 233, 172);
+    border:4px solid #0e4f1f;
+    margin: 36px 0;
+    width:80%;
+    position: relative;
+    border-left: none;
+    z-index: -1;
+}
+.package:hover,
+.package:active{
+    text-shadow:2px 2px 4px rgba(0,0,0,0.5) ;
+    border-color: #ff5454 !important;
+}
+.package__Badge{
+    position:absolute;
+    top:0;
+    right: 40px;    
+    margin:20px;
+    font-size: 12px;
+    color:white;
+    background: #ff5454;
+    padding: 8px;
+}
+.package a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+.package__title{
+    text-align: center;
+    font-size: 20px;
+    color:black;   
+  
+}
+.package__subtitle{
+   
+    color:#979797;
+}
+.package__info{
+    padding: 16px;
+    background-color: white;
+    border:1px solid 0e4fif;
+    font-size: 20px;
+    color:#0e4f1f;
+    background: white;
+
+}
+.clearfix{
+    clear:both;
+}
+#free{
+background-color: rgba(234,252,237,0.95);
+float:right;
+border-right: none;
+border-left:4px solid #0e4f1f ;
+text-align: right;
+
+}
+#premium{
+background:rgb(14, 79, 31,0.95) ;
+}
+#plus{
+    background-color: rgba(234,252,220,0.95);
+}
+#premium .packag__title{
+    color: white;
+}
+#premium .package__subtitle{
+    color:#bbb;
+}
