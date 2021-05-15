@@ -5,6 +5,7 @@ main{
     background-image: url("../images/plan3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
     width: 100%;
     height: 100%;
     position: fixed;
